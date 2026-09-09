@@ -1,0 +1,7 @@
+# The dsh-pair-quick bundle patch: inserts the single plugin row that mounts
+# BOTH halves: the host half (the /api/pair-quick/mint route that mints the
+# pairing token through the loopback pair endpoint and renders the QR PNG)
+# and the browser half (the "快速配对" settings section).
+- insert:
+    - id: pair-quick
+      name: 'dsh-pair-quick'
